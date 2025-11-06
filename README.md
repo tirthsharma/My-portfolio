@@ -30,7 +30,7 @@
 
 ## Introduction
 
-3D Developer Portfolio built to help you stand out with stunning visuals and interactive 3D elements. Perfect for frontend devs, designers, and creative coders.
+My Portfolio is built to help you stand out with stunning visuals and interactive 3D elements. Perfect for frontend devs, designers, and creative coders.
 
 ## Tech Stack
 
