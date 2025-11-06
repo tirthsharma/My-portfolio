@@ -1,10 +1,6 @@
-<div >
-  <br />
-   <div align="center" >
-    <a href="https://www.youtube.com/watch?v=kpEyJgsO_qE&t=423s" target="_blank">
-      <img  src="https://github.com/user-attachments/assets/380f7399-253b-4ec2-bf1e-1eef6e72b0f8" style="border-radius:10px;"  alt="Project Banner">
-    </a></div>
-  <br />
+# My Portfolio
+
+<div align="center">
   <br />
 
   <div>
@@ -475,3 +471,7 @@ to {
 Join the community and connect with other developers!
 
 [![Discord](https://img.shields.io/discord/your-server-id?label=Join%20Discord&logo=discord&style=for-the-badge&color=5865F2)](https://discord.gg/cbtfr4BHF9)
+=======
+# My-portfolio
+portfolio for public viewing 
+>>>>>>> 105b405a87db8cf251fcbca2995dcbb8f317bce1
