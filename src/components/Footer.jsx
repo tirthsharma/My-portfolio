@@ -12,8 +12,11 @@ const Footer = () => {
       </div>
       <div className="flex items-center md:gap-16 gap-8">
         {footerIconsList.map((icon, index) => (
-          <div
+          <a
             key={index}
+            href={icon.href}
+            target="_blank"
+            rel="noopener noreferrer"
             className="cursor-pointer hover:-translate-y-5 transition-all duration-700"
           >
             <img
@@ -21,7 +24,7 @@ const Footer = () => {
               alt={icon.name}
               className="md:size-10 size-8"
             />
-          </div>
+          </a>
         ))}
       </div>
       <p className="font-regular md:text-lg text-sm">

@@ -6,7 +6,6 @@ import {
   About,
   TechStack,
   Projects,
-  Testimonials,
   Footer,
   Contact,
 } from "./sections";
@@ -21,7 +20,6 @@ const App = () => {
       <About />
       <TechStack />
       <Projects />
-      <Testimonials />
       <Contact />
       <Footer />
     </div>

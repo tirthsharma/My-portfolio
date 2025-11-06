@@ -33,13 +33,10 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                   <h1 className="text-blue-50 md:text-5xl text-3xl">
-                    David JhonSan
+                    Rishabh Sharma
                   </h1>
                   <p className="md:text-2xl mt-2">
-                    I am a San francisco-based product designer with a focus on
-                    web design, illustration, a visual development. I have a
-                    diverse range of experience having worked across various
-                    fields and industries.
+                    I am a Delhi-based College student with a passion for content writing and development. I love creating engaging content and building innovative web applications.
                   </p>
                 </div>
               </div>
@@ -63,11 +60,10 @@ const About = () => {
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col h-full justify-center gap-2">
                   <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    Web Design & Dev
+                    Web Design & Content writing
                   </h1>
                   <p className="md:text-2xl max-w-96">
-                    Cleanly Designed, Conversion-focused, and build for easy
-                    updates.
+                    Cleanly Designed, Responsive Websites with Engaging Content, creative ideas to captivate your audience.
                   </p>
                 </div>
               </div>
@@ -79,7 +75,7 @@ const About = () => {
                     UX UI Design
                   </h1>
                   <p className="md:text-2xl max-w-96">
-                    Seamless web or mobile app design to wow your users.
+                    User-Centric Designs that Prioritize Seamless Experiences and Intuitive Interfaces.
                   </p>
                 </div>
               </div>
@@ -101,23 +97,30 @@ const About = () => {
             </div>
             {bentoSocialLinks.map((item, index) => (
               <div key={index} className="md:col-span-4 col-span-12 row-span-2">
-                <div className="bg-black-300 rounded-2xl p-7 w-full h-full group cursor-pointer">
-                  <div className="flex justify-between items-center h-full">
-                    <div className="flex items-center md:gap-5">
-                      <img src={item.icon} alt={item.icon} />
-                      <h1 className="gradient-title md:text-3xl text-xl md:m-0 ms-5 font-medium">
-                        {item.name}
-                      </h1>
-                    </div>
-                    <div className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform">
-                      <img
-                        src="/images/arrowupright.svg"
-                        alt="arrow-up"
-                        className="md:scale-100 scale-50"
-                      />
+                <a
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <div className="bg-black-300 rounded-2xl p-7 w-full h-full group cursor-pointer">
+                    <div className="flex justify-between items-center h-full">
+                      <div className="flex items-center md:gap-5">
+                        <img src={item.icon} alt={item.icon} />
+                        <h1 className="gradient-title md:text-3xl text-xl md:m-0 ms-5 font-medium">
+                          {item.name}
+                        </h1>
+                      </div>
+                      <div className="group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform">
+                        <img
+                          src="/images/arrowupright.svg"
+                          alt="arrow-up"
+                          className="md:scale-100 scale-50"
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
               </div>
             ))}
           </div>
