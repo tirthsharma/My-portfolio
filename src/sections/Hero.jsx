@@ -34,7 +34,7 @@ const Hero = () => {
               </div>
               <div className="flex flex-col items-end">
                 <img src="/images/shape.svg" alt="shape" />
-                <h1 className="font-bold md:text-9xl text-5xl">CREATIVE</h1>
+                <h1 className="font-bold md:text-9xl text-5xl">ARTIST</h1>
               </div>
             </div>
           </div>
