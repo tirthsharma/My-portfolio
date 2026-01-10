@@ -33,10 +33,10 @@ const About = () => {
                 </div>
                 <div className="mt-5">
                   <h1 className="text-blue-50 md:text-5xl text-3xl">
-                    Rishabh Sharma
+                    Tirth Sharma
                   </h1>
-                  <p className="md:text-2xl mt-2">
-                    I am a Delhi-based College student with a passion for content writing and development. I love creating engaging content and building innovative web applications.
+                  <p className="md:text-2xl text-lg mt-4 leading-relaxed">
+                  My thinking is shaped by Structure, Ownership, and Long-term value. I approach work the way businesses are built - Deliberately, Thoughtfully, and with Purpose. I don't chase trends or noise. I focus on Systems, Clarity, and Execution. Every decision I make is rooted in intent - what it solves, how it scales, and why it matters.
                   </p>
                 </div>
               </div>
@@ -57,40 +57,40 @@ const About = () => {
               </div>
             </div>
             <div className="md:col-span-6 col-span-12 row-span-3">
-              <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
-                <div className="flex flex-col h-full justify-center gap-2">
-                  <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    Web Design & Content writing
+              <div className="bg-black-300 rounded-2xl p-7 w-full h-full flex items-center">
+                <div className="flex flex-col gap-3 w-full">
+                  <h1 className="gradient-title md:text-3xl text-2xl font-medium leading-tight">
+                  Visual & Narrative Work
                   </h1>
-                  <p className="md:text-2xl max-w-96">
-                    Cleanly Designed, Responsive Websites with Engaging Content, creative ideas to captivate your audience.
+                  <p className="md:text-xl text-base leading-relaxed">
+                  I craft visuals and narratives that tell stories, evoke emotions, and engage audiences. From concept to delivery, I ensure every frame is intentional, impactful, and unforgettable.
                   </p>
                 </div>
               </div>
             </div>
             <div className="md:col-span-6 col-span-12 row-span-3">
-              <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
-                <div className="flex flex-col h-full justify-center gap-2">
-                  <h1 className="gradient-title md:text-3xl text-2xl font-medium">
-                    UX UI Design
+              <div className="bg-black-300 rounded-2xl p-7 w-full h-full flex items-center">
+                <div className="flex flex-col gap-3 w-full">
+                  <h1 className="gradient-title md:text-3xl text-2xl font-medium leading-tight">
+                  Strategy & Digital Thinking
                   </h1>
-                  <p className="md:text-2xl max-w-96">
-                    User-Centric Designs that Prioritize Seamless Experiences and Intuitive Interfaces.
+                  <p className="md:text-xl text-base leading-relaxed">
+                  I plan Content, Design Communication, Structure Social Media Systems, Create Ad Creatives, and use AI and Technology to Streamline Execution and Growth.
                   </p>
                 </div>
               </div>
             </div>
-            <div className="md:col-span-4 col-span-12 row-span-4">
+            <div className="md:col-span-4 col-span-12 row-span-3">
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col justify-between h-full">
-                  <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BE YOURSELF!
+                  <h1 className="md:text-5xl text-3xl font-bold">
+                    3+ Clients
                   </h1>
-                  <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BE DIFFERENT!
+                  <h1 className="md:text-5xl text-3xl font-bold">
+                    1+ Years
                   </h1>
-                  <h1 className="gradient-title md:text-5xl text-3xl font-bold">
-                    BUILD DIFFERENT!
+                  <h1 className="md:text-5xl text-3xl font-bold">
+                    10+ Projects
                   </h1>
                 </div>
               </div>
