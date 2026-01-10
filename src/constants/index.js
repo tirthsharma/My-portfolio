@@ -75,13 +75,13 @@ const slides = [
     id: 1,
     title: "Project 1",
     img: "/images/p1.png",
-    youtubeId: "12FQVkEKpLo", // Project 1 - Your actual video
+    youtubeId: "63MRIYN7wUk", // Project 1 - Your actual video
   },
   {
     id: 2,
     title: "Project 2",
     img: "/images/p2.png",
-    youtubeId: "63MRIYN7wUk", // Project 2 - Your actual video
+    youtubeId: "12FQVkEKpLo", // Project 2 - Your actual video
   },
   {
     id: 3,
