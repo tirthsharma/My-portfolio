@@ -7,20 +7,26 @@ const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % (slides.length - 1));
+    setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
   };
 
   const prevSlide = () => {
     setCurrentSlide(
-      (prevSlide) => (prevSlide - 1 + (slides.length - 1)) % (slides.length - 1)
+      (prevSlide) => (prevSlide - 1 + slides.length) % slides.length
     );
   };
 
   useGSAP(() => {
+    // Set initial position to show first project
+    gsap.set(".slider-container", {
+      x: `${20 - currentSlide * 63}vw`,
+    });
+
     const tl = gsap.timeline();
 
-    tl.to(".slider-item", {
-      x: `-${currentSlide * 63}vw`,
+    // Animate to the correct position based on currentSlide
+    tl.to(".slider-container", {
+      x: `${20 - currentSlide * 63}vw`,
       duration: 1,
       ease: "power2.inOut",
     });
@@ -31,18 +37,22 @@ const Carousel = () => {
       <div className="w-full relative lg:h-[60vh] md:h-[40vh] h-[60vh]">
         <div className="carousel-gradient-left-box md:w-52 w-16 h-full absolute bottom-0 left-0 z-20"></div>
         <div className="carousel-gradient-right-box md:w-52 w-16 h-full absolute bottom-0 right-0 z-20"></div>
-        <div className="absolute w-full -left-[43vw] top-0">
-          <div className="flex w-full lg:h-[60vh] md:h-[40vh] h-[60vh] items-center gap-[3vw]">
+        <div className="absolute w-full top-0">
+          <div className="slider-container flex w-full lg:h-[60vh] md:h-[40vh] h-[60vh] items-center gap-[3vw]">
             {slides.map((slide, index) => (
               <div
-                className="slider-item w-[60vw] h-full flex-none relative"
+                className="slider-item w-[60vw] h-full flex-none relative bg-black-300 rounded-2xl overflow-hidden"
                 key={index}
               >
-                <img
-                  src={slide.img}
-                  alt="slide"
-                  className="w-full h-full object-cover object-center"
-                />
+                <div className="w-full h-full relative">
+                  <iframe
+                    className="w-full h-full"
+                    src={`https://www.youtube.com/embed/${slide.youtubeId || 'dQw4w9WgXcQ'}`}
+                    title={slide.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  ></iframe>
+                </div>
                 <div className="absolute w-full h-20 bottom-0 left-0 bg-black-300 bg-opacity-90 px-5">
                   <div className="w-full h-full flex justify-between items-center">
                     <div className="flex-center gap-2">
