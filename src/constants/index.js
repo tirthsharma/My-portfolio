@@ -20,99 +20,98 @@ const navItems = [
 const bentoSocialLinks = [
   {
     name: "Instagram",
-    href: "https://www.instagram.com/rishabhsharma._.17/",
+    href: "https://www.instagram.com/iamtirthh/?utm_source=ig_web_button_share_sheet",
     icon: "/images/insta.svg",
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/rishabhsharma1718",
+    href: "https://www.linkedin.com/in/tirthsharma/",
     icon: "/images/linkedin.svg",
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/qr/5DTZ6GP2SCQZO1",
+    href: "https://wa.me/919351300612",
     icon: "/images/whatsapp.svg",
   },
 ];
 
 const iconsList = [
   {
-    name: "html",
-    image: "/images/html.svg",
+    name: "Premiere Pro",
+    image: "/images/premiere-pro.svg",
   },
   {
-    name: "css",
-    image: "/images/css.svg",
+    name: "After Effects",
+    image: "/images/after-effects.svg",
   },
   {
-    name: "javascript",
-    image: "/images/js.svg",
+    name: "DaVinci Resolve",
+    image: "/images/davinci-resolve.svg",
   },
   {
-    name: "react",
-    image: "/images/react.svg",
+    name: "Photoshop",
+    image: "/images/photoshop.svg",
   },
   {
-    name: "typescript",
-    image: "/images/ts.svg",
+    name: "Illustrator",
+    image: "/images/illustrator.svg",
   },
   {
-    name: "github",
-    image: "/images/github.svg",
-  },
-  {
-    name: "gsap",
-    image: "/images/gsap.svg",
-  },
-  {
-    name: "threejs",
-    image: "/images/threejs.svg",
-  },
-  {
-    name: "figma",
+    name: "Figma",
     image: "/images/figma.svg",
   },
   {
-    name: "aws",
-    image: "/images/aws.svg",
+    name: "Lightroom",
+    image: "/images/lightroom.svg",
+  },
+  {
+    name: "Blender",
+    image: "/images/blender.svg",
   },
 ];
 
 const slides = [
   {
     id: 1,
-    title: "Sofi",
+    title: "Project 1",
     img: "/images/p1.png",
+    youtubeId: "12FQVkEKpLo", // Project 1 - Your actual video
   },
   {
     id: 2,
-    title: "Jasmina",
+    title: "Project 2",
     img: "/images/p2.png",
+    youtubeId: "63MRIYN7wUk", // Project 2 - Your actual video
   },
   {
     id: 3,
-    title: "d.tampe",
+    title: "Project 3",
     img: "/images/p3.png",
+    youtubeId: "dQw4w9WgXcQ", // Rick Astley video
   },
   {
     id: 4,
-    title: "Blimp.gr",
+    title: "Project 4",
     img: "/images/p4.png",
+    youtubeId: "dQw4w9WgXcQ", // Rick Astley video
   },
   {
     id: 5,
-    title: "Hawk Style Design",
+    title: "Project 5",
     img: "/images/p5.png",
+    youtubeId: "dQw4w9WgXcQ", // Rick Astley video
   },
   {
     id: 6,
-    title: "Lewis",
+    title: "Project 6",
     img: "/images/p6.png",
+    youtubeId: "dQw4w9WgXcQ", // Rick Astley video
   },
   {
     id: 7,
-    title: "Sofi",
+    title: "Project 7",
     img: "/images/p1.png",
+    youtubeId: "dQw4w9WgXcQ", // Rick Astley video
   },
 ];
 
@@ -121,17 +120,17 @@ const slides = [
 const footerIconsList = [
   {
     name: "Instagram",
-    href: "https://www.instagram.com/rishabhsharma._.17/",
+    href: "https://www.instagram.com/iamtirthh/?utm_source=ig_web_button_share_sheet",
     icon: "/images/b-insta.svg",
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/rishabhsharma1718",
+    href: "https://www.linkedin.com/in/tirthsharma/",
     icon: "/images/b-linked.svg",
   },
   {
     name: "WhatsApp",
-    href: "https://wa.me/qr/5DTZ6GP2SCQZO1",
+    href: "https://wa.me/919351300612",
     icon: "/images/b-whatsapp.svg",
   },
 ];
