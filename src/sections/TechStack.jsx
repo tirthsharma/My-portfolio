@@ -10,7 +10,7 @@ const TechStack = () => {
           <TitleHeader
             title="TECH STACK"
             number="02"
-            text="My Go-To Tools for Crafting Solutions"
+            text="My Go-To Tools for Crafting"
           />
         </div>
         <div className="md:mt-20 mt-10 relative">
