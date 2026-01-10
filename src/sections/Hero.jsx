@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="container relative w-full h-full">
           <div className="md:mt-40 mt-20">
             <p className="font md:text-2xl text-base">
-              👋 Hey, I&apos;m Here
+              👋 Hey, I&apos;m
             </p>
             <h1 className="font-bold md:text-9xl text-5xl">Tirth</h1>
             <h1 className="font-bold md:text-9xl text-5xl">Sharma</h1>
