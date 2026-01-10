@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="w-full h-full container md:my-40 my-20">
         <TitleHeader
           title="Contact Me"
-          number="+91 8448981345"
+          number="+91 9351300612"
           text="Let's collaborate on tailored and produce creative ideas"
         />
         <div className="mt-20">
