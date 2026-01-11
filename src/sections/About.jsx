@@ -84,13 +84,13 @@ const About = () => {
               <div className="bg-black-300 rounded-2xl p-7 w-full h-full">
                 <div className="flex flex-col justify-between h-full">
                   <h1 className="md:text-5xl text-3xl font-bold">
-                    3+ Clients
+                    15+ Clients
                   </h1>
                   <h1 className="md:text-5xl text-3xl font-bold">
                     1+ Years
                   </h1>
                   <h1 className="md:text-5xl text-3xl font-bold">
-                    10+ Projects
+                    20+ Projects
                   </h1>
                 </div>
               </div>
