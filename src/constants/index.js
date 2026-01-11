@@ -93,7 +93,7 @@ const slides = [
     id: 4,
     title: "Project 4",
     img: "/images/p4.png",
-    youtubeId: "dQw4w9WgXcQ", // Rick Astley video
+    youtubeId: "y6fAn5C3eaw", // Rick Astley video
   },
   {
     id: 5,
